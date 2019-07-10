@@ -1,0 +1,1501 @@
+Started GET "/" for 172.21.0.1 at 2019-05-31 02:11:24 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "PoiApp_development" does not exist
+):
+  
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (875.7ms)[0m  [1m[35mCREATE DATABASE "PoiApp_development" ENCODING = 'unicode'[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (854.6ms)[0m  [1m[35mCREATE DATABASE "PoiApp_test" ENCODING = 'unicode'[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Started GET "/" for 172.21.0.1 at 2019-05-31 02:12:31 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 13ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2019-05-31 02:21:20 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:21:22 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (4.0ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 4.0ms)
+
+
+  
+ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "pois" does not exist
+LINE 1: SELECT "pois".* FROM "pois"
+                             ^
+: SELECT "pois".* FROM "pois"):
+     9:     <th></th>
+    10:   </tr>
+    11:  
+    12:   <% @pois.each do |poi| %>
+    13:     <tr>
+    14:       <td><%= poi.name %></td>
+    15:       <td><%= poi.x %></td>
+  
+app/views/pois/index.html.erb:12:in `_app_views_pois_index_html_erb__884224508524710532_70216039527060'
+  [1m[35m (101.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (120.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3455534075178722040)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-31 02:21:45.881467"], ["updated_at", "2019-05-31 02:21:45.881467"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(3455534075178722040)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:22:45 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (1.0ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "pois" does not exist
+LINE 1: SELECT "pois".* FROM "pois"
+                             ^
+: SELECT "pois".* FROM "pois"):
+     9:     <th></th>
+    10:   </tr>
+    11:  
+    12:   <% @pois.each do |poi| %>
+    13:     <tr>
+    14:       <td><%= poi.name %></td>
+    15:       <td><%= poi.x %></td>
+  
+app/views/pois/index.html.erb:12:in `_app_views_pois_index_html_erb__884224508524710532_47266287645240'
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:22:47 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (2.9ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 2.9ms)
+
+
+  
+ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "pois" does not exist
+LINE 1: SELECT "pois".* FROM "pois"
+                             ^
+: SELECT "pois".* FROM "pois"):
+     9:     <th></th>
+    10:   </tr>
+    11:  
+    12:   <% @pois.each do |poi| %>
+    13:     <tr>
+    14:       <td><%= poi.name %></td>
+    15:       <td><%= poi.x %></td>
+  
+app/views/pois/index.html.erb:12:in `_app_views_pois_index_html_erb__884224508524710532_70216040573740'
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:22:48 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (1.0ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "pois" does not exist
+LINE 1: SELECT "pois".* FROM "pois"
+                             ^
+: SELECT "pois".* FROM "pois"):
+     9:     <th></th>
+    10:   </tr>
+    11:  
+    12:   <% @pois.each do |poi| %>
+    13:     <tr>
+    14:       <td><%= poi.name %></td>
+    15:       <td><%= poi.x %></td>
+  
+app/views/pois/index.html.erb:12:in `_app_views_pois_index_html_erb__884224508524710532_70216139697800'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3455534075178722040)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(3455534075178722040)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3455534075178722040)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePois (20190531022733)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (113.4ms)[0m  [1m[35mCREATE TABLE "pois" ("id" bigserial primary key, "name" character varying, "x" integer, "y" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190531022733_create_pois.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190531022733"]]
+  ↳ bin/rails:9
+  [1m[35m (19.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3455534075178722040)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:28:02 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.8ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 266ms (Views: 259.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/pois/new" for 172.21.0.1 at 2019-05-31 02:28:05 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new as HTML
+  Rendering pois/new.html.erb within layouts/application
+  Rendered pois/new.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 64ms (Views: 50.8ms | ActiveRecord: 4.6ms)
+
+
+Started POST "/pois" for 172.21.0.1 at 2019-05-31 02:28:15 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HkJBsEb98nGicPEj3SgbAXDIadKiCuxikR9smlaG/KFNvv1dJ3UTbQNlu2UpRr7yDrxVS/6Bjb0F52V7SWaVVw==", "poi"=>{"name"=>"Lanchonete", "x"=>"12", "y"=>"8"}, "commit"=>"Save Poi"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/pois_controller.rb:17
+  [1m[36mPoi Create (1.0ms)[0m  [1m[32mINSERT INTO "pois" ("name", "x", "y", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Lanchonete"], ["x", 12], ["y", 8], ["created_at", "2019-05-31 02:28:15.460265"], ["updated_at", "2019-05-31 02:28:15.460265"]]
+  ↳ app/controllers/pois_controller.rb:17
+  [1m[35m (29.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/pois_controller.rb:17
+Redirected to http://localhost:3000/pois/1
+Completed 302 Found in 37ms (ActiveRecord: 30.7ms)
+
+
+Started GET "/pois/1" for 172.21.0.1 at 2019-05-31 02:28:15 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPoi Load (1.1ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:8
+  Rendering pois/show.html.erb within layouts/application
+  Rendered pois/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 31ms (Views: 23.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:28:17 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (1.0ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pois/new" for 172.21.0.1 at 2019-05-31 02:28:20 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new as HTML
+  Rendering pois/new.html.erb within layouts/application
+  Rendered pois/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois" for 172.21.0.1 at 2019-05-31 02:28:32 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/A/+bK3MZYGlvUIW5v9TnoHRRTq3b36ZG6UbqH4Gsx2v80KBzESEnQSoCFASkfZt/6V5o+vkH0aPXRJJYeba6w==", "poi"=>{"name"=>"Zup", "x"=>"-30", "y"=>"10"}, "commit"=>"Save Poi"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/pois_controller.rb:17
+  [1m[36mPoi Create (1.0ms)[0m  [1m[32mINSERT INTO "pois" ("name", "x", "y", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Zup"], ["x", -30], ["y", 10], ["created_at", "2019-05-31 02:28:32.576550"], ["updated_at", "2019-05-31 02:28:32.576550"]]
+  ↳ app/controllers/pois_controller.rb:17
+  [1m[35m (55.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/pois_controller.rb:17
+Redirected to http://localhost:3000/pois/2
+Completed 302 Found in 61ms (ActiveRecord: 56.7ms)
+
+
+Started GET "/pois/2" for 172.21.0.1 at 2019-05-31 02:28:32 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPoi Load (0.8ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:8
+  Rendering pois/show.html.erb within layouts/application
+  Rendered pois/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 18ms (Views: 14.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:28:36 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois/2" for 172.21.0.1 at 2019-05-31 02:28:39 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPoi Load (0.6ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:8
+  Rendering pois/show.html.erb within layouts/application
+  Rendered pois/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:28:42 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois/2" for 172.21.0.1 at 2019-05-31 02:30:09 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPoi Load (0.4ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:8
+  Rendering pois/show.html.erb within layouts/application
+  Rendered pois/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 12.6ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:30:11 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:37:19 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.7ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 48ms (Views: 36.3ms | ActiveRecord: 7.3ms)
+
+
+Started DELETE "/pois/2" for 172.21.0.1 at 2019-05-31 02:37:24 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kQwwbdXWpzGPjmyeNNJL9dZzlIH6SR/7Sa2SN0SuhKToXblSR7Mpnn2Yw8N8T8nC4mZokAml2lE07ZFNviYF9A==", "id"=>"2"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:28
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/pois_controller.rb:29
+  [1m[36mPoi Destroy (1.0ms)[0m  [1m[31mDELETE FROM "pois" WHERE "pois"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/pois_controller.rb:29
+  [1m[35m (21.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/pois_controller.rb:29
+Redirected to http://localhost:3000/pois
+Completed 302 Found in 31ms (ActiveRecord: 23.5ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:37:24 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (1.2ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 38ms (Views: 34.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:38:10 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:38:22 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+tPUsNz/iNl5HOHZVJadWjnDlSypw1bTGHdYT9KwuzJJCVT0R4KliCrxWVCg4tWFYa/q/yXOGHF/6zLZQVYzrA==", "radius"=>"10", "x"=>"12", "y"=>"5", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:49
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `-' for "12":String):
+  
+app/controllers/pois_controller.rb:37:in `block in euclidean_distance'
+app/controllers/pois_controller.rb:36:in `each'
+app/controllers/pois_controller.rb:36:in `each_with_index'
+app/controllers/pois_controller.rb:36:in `euclidean_distance'
+app/controllers/pois_controller.rb:50:in `block in calculate_distance'
+app/controllers/pois_controller.rb:49:in `calculate_distance'
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:44:11 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+tPUsNz/iNl5HOHZVJadWjnDlSypw1bTGHdYT9KwuzJJCVT0R4KliCrxWVCg4tWFYa/q/yXOGHF/6zLZQVYzrA==", "radius"=>"10", "x"=>"12", "y"=>"5", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.7ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:50
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 9.5ms)
+
+
+  
+NoMethodError (undefined method `-' for "12":String):
+  
+app/controllers/pois_controller.rb:38:in `block in euclidean_distance'
+app/controllers/pois_controller.rb:37:in `each'
+app/controllers/pois_controller.rb:37:in `each_with_index'
+app/controllers/pois_controller.rb:37:in `euclidean_distance'
+app/controllers/pois_controller.rb:51:in `block in calculate_distance'
+app/controllers/pois_controller.rb:50:in `calculate_distance'
+Started GET "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:45:08 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:45:38 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bQcOa+IWZKap17Zz1jhYsWzMmcS6QNMp38+d0n0d/moUVodUcHPqCVvBGS6epdqGWNll1UmsFoOij56oh5V/Og==", "radius"=>"10", "x"=>"8", "y"=>"5", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.4ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:49
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 4.5ms)
+
+
+  
+NoMethodError (undefined method `-' for "8":String):
+  
+app/controllers/pois_controller.rb:37:in `block in euclidean_distance'
+app/controllers/pois_controller.rb:36:in `each'
+app/controllers/pois_controller.rb:36:in `each_with_index'
+app/controllers/pois_controller.rb:36:in `euclidean_distance'
+app/controllers/pois_controller.rb:50:in `block in calculate_distance'
+app/controllers/pois_controller.rb:49:in `calculate_distance'
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:47:30 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bQcOa+IWZKap17Zz1jhYsWzMmcS6QNMp38+d0n0d/moUVodUcHPqCVvBGS6epdqGWNll1UmsFoOij56oh5V/Og==", "radius"=>"10", "x"=>"8", "y"=>"5", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.7ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:49
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 5.4ms)
+
+
+  
+NameError (undefined local variable or method `radius' for #<PoisController:0x00007fb8e4860700>):
+  
+app/controllers/pois_controller.rb:51:in `block in calculate_distance'
+app/controllers/pois_controller.rb:49:in `calculate_distance'
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:48:42 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bQcOa+IWZKap17Zz1jhYsWzMmcS6QNMp38+d0n0d/moUVodUcHPqCVvBGS6epdqGWNll1UmsFoOij56oh5V/Og==", "radius"=>"10", "x"=>"8", "y"=>"5", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.6ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:49
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 6.0ms)
+
+
+  
+ArgumentError (comparison of Float with String failed):
+  
+app/controllers/pois_controller.rb:51:in `<='
+app/controllers/pois_controller.rb:51:in `block in calculate_distance'
+app/controllers/pois_controller.rb:49:in `calculate_distance'
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:49:57 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bQcOa+IWZKap17Zz1jhYsWzMmcS6QNMp38+d0n0d/moUVodUcHPqCVvBGS6epdqGWNll1UmsFoOij56oh5V/Og==", "radius"=>"10", "x"=>"8", "y"=>"5", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:49
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 70ms (Views: 41.5ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:52:17 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.4ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 42ms (Views: 32.2ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:52:40 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:52:54 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V75JjjhKT3Tpb86Sm/2eyVP6BegHndbONXH3ZW3Hp3XkZMnKozdiJbqCdhtvidYWC5Z6O4uQmGxS7Z3z/iEv6w==", "radius"=>"2", "x"=>"1", "y"=>"3", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:50
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 44ms (Views: 37.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:52:57 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:53:22 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:53:28 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JsMCkBwxOkaX+Yg8CD6mEocTBgR3bZhrundNP1/A9vyVGYLUh0wXF8QUMLX8Su7N33951/tg1snd6yepzCZ+Yg==", "radius"=>"1", "x"=>"1", "y"=>"1", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:50
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 30.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:53:29 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.4ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:53:30 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:53:41 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fQbldnki69lQ46UowK+DPAzDeRNC53BZah2K9T9748TO3GUy4l/GiAMOHaE028vjVK8GwM7qPvsNgeBjrJ1rWg==", "radius"=>"10", "x"=>"2", "y"=>"3", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:50
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 37ms (Views: 32.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:53:43 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:53:44 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-05-31 02:53:56 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JrLiQnD1rk/k1Ayuer8FG9PcusMwaVXHfU6qbf/Dt6WVaGIG64iDHrc5tCeOy03Ei7DFELxkG2Ua0sD7bCU/Ow==", "radius"=>"10", "x"=>"5", "y"=>"7", "commit"=>"Submit"}
+  [1m[36mPoi Load (2.1ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:50
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 30.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-05-31 02:54:02 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.6ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:09:39 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant PoisController::Poi):
+  
+app/controllers/pois_controller.rb:4:in `index'
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:17:31 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3455534075178722040)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePois (20190531031724)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (26.2ms)[0m  [1m[35mCREATE TABLE "pois" ("id" bigserial primary key, "name" character varying, "x" integer, "y" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190531031724_create_pois.rb:3
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(3455534075178722040)[0m
+  ↳ bin/rails:9
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:22:57 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3455534075178722040)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePois (20190531031724)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "pois" ("id" bigserial primary key, "name" character varying, "x" integer, "y" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190531031724_create_pois.rb:3
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(3455534075178722040)[0m
+  ↳ bin/rails:9
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:24:34 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:24:35 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:24:35 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:24:36 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:24:36 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:24:36 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (5011.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "PoiApp_development"[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (371.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "PoiApp_development"[0m
+  ↳ bin/rails:9
+  [1m[35m (330.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "PoiApp_test"[0m
+  ↳ bin/rails:9
+  [1m[35m (2190.7ms)[0m  [1m[35mCREATE DATABASE "PoiApp_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (859.4ms)[0m  [1m[35mCREATE DATABASE "PoiApp_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (113.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (94.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3455534075178722040)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePois (20190531031724)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (88.5ms)[0m  [1m[35mCREATE TABLE "pois" ("id" bigserial primary key, "name" character varying, "x" integer, "y" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190531031724_create_pois.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190531031724"]]
+  ↳ bin/rails:9
+  [1m[35m (12.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-31 03:26:17.044970"], ["updated_at", "2019-05-31 03:26:17.044970"]]
+  ↳ bin/rails:9
+  [1m[35m (4.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(3455534075178722040)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:26:34 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.8ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 171ms (Views: 157.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/pois/new" for 172.22.0.1 at 2019-05-31 03:26:36 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new as HTML
+  Rendering pois/new.html.erb within layouts/application
+  Rendered pois/new.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 55ms (Views: 40.7ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/pois" for 172.22.0.1 at 2019-05-31 03:26:46 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Xpu1S4ODaAALT6GrrI00b75Q9sFjjyqFx5S50LT0IXANZwmm4guJHKpa6+1Y45GcwCTKWD8ES1pTbLAxqxRIhg==", "poi"=>{"name"=>"Lanchonete", "x"=>"12", "y"=>"8"}, "commit"=>"Save Poi"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/pois_controller.rb:17
+  [1m[36mPoi Create (1.1ms)[0m  [1m[32mINSERT INTO "pois" ("name", "x", "y", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Lanchonete"], ["x", 12], ["y", 8], ["created_at", "2019-05-31 03:26:46.325818"], ["updated_at", "2019-05-31 03:26:46.325818"]]
+  ↳ app/controllers/pois_controller.rb:17
+  [1m[35m (37.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/pois_controller.rb:17
+Redirected to http://localhost:3000/pois/1
+Completed 302 Found in 45ms (ActiveRecord: 38.4ms)
+
+
+Started GET "/pois/1" for 172.22.0.1 at 2019-05-31 03:26:46 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPoi Load (0.2ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:8
+  Rendering pois/show.html.erb within layouts/application
+  Rendered pois/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 19.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois" for 172.22.0.1 at 2019-05-31 03:26:49 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 56ms (Views: 54.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-05-31 23:09:53 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (42.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (70.6ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (114.6ms)
+Completed 200 OK in 632ms (Views: 503.2ms | ActiveRecord: 77.9ms)
+
+
+Started GET "/pois/1" for 172.20.0.1 at 2019-05-31 23:13:10 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPoi Load (0.3ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:8
+  Rendering pois/show.html.erb within layouts/application
+  Rendered pois/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 81ms (Views: 26.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pois/1" for 172.20.0.1 at 2019-05-31 23:13:42 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:8
+  Rendering pois/show.html.erb within layouts/application
+  Rendered pois/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 19.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 172.20.0.1 at 2019-06-01 15:24:19 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (27.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 69ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-06-01 15:24:26 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (133.3ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (219.8ms)
+Completed 200 OK in 673ms (Views: 457.1ms | ActiveRecord: 185.7ms)
+
+
+Started GET "/pois/new" for 172.20.0.1 at 2019-06-01 15:52:17 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new as HTML
+  Rendering pois/new.html.erb within layouts/application
+  Rendered pois/new.html.erb within layouts/application (105.1ms)
+Completed 200 OK in 189ms (Views: 174.2ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/pois" for 172.21.0.1 at 2019-06-01 22:50:58 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (41.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (40.8ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (58.5ms)
+Completed 200 OK in 332ms (Views: 273.8ms | ActiveRecord: 46.8ms)
+
+
+Started GET "/pois/new_distance" for 172.21.0.1 at 2019-06-01 22:51:29 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.21.0.1 at 2019-06-01 22:52:08 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uG3sAa8cmyj4YZD0E2ohjU6X9KC9GGtkD9IW1lkT1wKZbaDKlR6jTJH3CzifpLzw6vL29NCvMPTvzFD1Tq5MbQ==", "radius"=>"10", "x"=>"12", "y"=>"4", "commit"=>"Submit"}
+  [1m[36mPoi Load (1.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:50
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 34ms (Views: 28.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-06-07 00:08:12 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (42.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (71.6ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (121.6ms)
+Completed 200 OK in 478ms (Views: 344.7ms | ActiveRecord: 93.4ms)
+
+
+Started GET "/pois/new_distance" for 172.20.0.1 at 2019-06-07 00:16:51 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 38ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.20.0.1 at 2019-06-07 00:17:32 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fYb5L+EYa6pg7Z8CQgagOegB4xIvH5QGrT89apTbyMzfiYjfh3Tg3Mlv4Weudt/ULZ0PGKjyvh61MT7s5qlQeQ==", "radius"=>"10", "x"=>"17", "y"=>"5", "commit"=>"Submit"}
+  [1m[36mPoi Load (1.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:50
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 82ms (Views: 46.2ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-06-09 02:14:43 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (15.6ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 184ms (Views: 152.5ms | ActiveRecord: 22.3ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-06-26 20:56:19 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (42.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (169.6ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (294.3ms)
+Completed 200 OK in 930ms (Views: 603.5ms | ActiveRecord: 248.0ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-06-26 20:56:37 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.7ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pois/new" for 172.20.0.1 at 2019-06-26 20:57:57 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new as HTML
+  Rendering pois/new.html.erb within layouts/application
+  Rendered pois/new.html.erb within layouts/application (301.0ms)
+Completed 200 OK in 328ms (Views: 311.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois" for 172.20.0.1 at 2019-06-26 20:58:18 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T9OyL+jTrypi+HBbdykPQvQF5IbwoAbJbHYXikCaCBOTl9jFvX83npHyaFSd7L4stiMTitAaiE/rkh10nseS2g==", "poi"=>{"name"=>"Joalheria", "x"=>"15", "y"=>"6"}, "commit"=>"Save Poi"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/pois_controller.rb:17
+  [1m[36mPoi Create (76.8ms)[0m  [1m[32mINSERT INTO "pois" ("name", "x", "y", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Joalheria"], ["x", 15], ["y", 6], ["created_at", "2019-06-26 20:58:18.844464"], ["updated_at", "2019-06-26 20:58:18.844464"]]
+  ↳ app/controllers/pois_controller.rb:17
+  [1m[35m (15.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/pois_controller.rb:17
+Redirected to http://localhost:3000/pois/2
+Completed 302 Found in 100ms (ActiveRecord: 92.5ms)
+
+
+Started GET "/pois/2" for 172.20.0.1 at 2019-06-26 20:58:18 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPoi Load (0.8ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:8
+  Rendering pois/show.html.erb within layouts/application
+  Rendered pois/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 87ms (Views: 13.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-06-26 20:59:09 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-06-26 21:23:19 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (1.7ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 60ms (Views: 38.6ms | ActiveRecord: 12.4ms)
+
+
+Started GET "/pois/new_distance" for 172.20.0.1 at 2019-06-26 21:23:22 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.20.0.1 at 2019-06-26 21:23:30 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MtAN/5A0HuUrpq1AlDTWJu+/prIr4PJTbWaYbq1XFhWpfzqTbdKwhA/2Th8zW0DXozI/4eADW/PwG44BBEaRBA==", "radius"=>"10", "x"=>"20", "y"=>"15", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:42
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `euclidean_distance' for #<Class:0x00007f37101f44f8>):
+  
+app/controllers/pois_controller.rb:43:in `block in calculate_distance'
+app/controllers/pois_controller.rb:42:in `calculate_distance'
+Started POST "/pois/new_distance" for 172.20.0.1 at 2019-06-26 21:23:53 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MtAN/5A0HuUrpq1AlDTWJu+/prIr4PJTbWaYbq1XFhWpfzqTbdKwhA/2Th8zW0DXozI/4eADW/PwG44BBEaRBA==", "radius"=>"10", "x"=>"20", "y"=>"15", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.4ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:42
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 43ms (Views: 27.7ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-06-26 21:23:56 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois/new_distance" for 172.20.0.1 at 2019-06-26 21:23:57 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.20.0.1 at 2019-06-26 21:24:05 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5WhgMQZPklt+PpQFxk547wEcPx3DPChK3xElyfBSD84OpbsOf+QKEmoGQ+wdq8S8Inpr7zvWQG2AVL4jtDPLg==", "radius"=>"20", "x"=>"10", "y"=>"10", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:42
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-06-26 21:29:28 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.8ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-07-10 02:24:40 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (33.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (69.7ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (244.8ms)
+Completed 200 OK in 866ms (Views: 697.1ms | ActiveRecord: 97.4ms)
+
+
+Started GET "/pois/1" for 172.20.0.1 at 2019-07-10 02:32:00 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:8
+  Rendering pois/show.html.erb within layouts/application
+  Rendered pois/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 94ms (Views: 11.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-07-10 02:34:00 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/pois/2" for 172.20.0.1 at 2019-07-10 02:34:41 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#destroy as HTML
+  Parameters: {"authenticity_token"=>"N8WPDdFLu/ASmSXWG1wwo8XVFLzOfcfqnSRL1NxeFw+8D9gv4rq48bVJYCO3z5ETRJPugxkpprK1leiX8gQKgQ==", "id"=>"2"}
+  [1m[36mPoi Load (0.6ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/pois_controller.rb:30
+  [1m[36mPoi Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pois" WHERE "pois"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/pois_controller.rb:30
+  [1m[35m (17.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/pois_controller.rb:30
+Redirected to http://localhost:3000/pois
+Completed 302 Found in 22ms (ActiveRecord: 18.2ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-07-10 02:34:41 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.5ms)
+
+
