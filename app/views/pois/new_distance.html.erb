@@ -1,0 +1,20 @@
+<h1>New Distance</h1>
+
+<%= form_tag("/pois/new_distance", method: "post") do %>
+  <%= label_tag :radius %><br>
+  <%= number_field_tag :radius %>
+  <br>
+  <br>
+  <%= label_tag :coordinate_x %><br>
+  <%= number_field_tag :x %>
+  <br>
+  <br>
+    <%= label_tag :coordinate_y %><br>
+  <%= number_field_tag :y %>
+  <p>
+    <%= submit_tag("Submit") %>
+  </p>
+<% end %>
+
+
+<%= link_to 'Back to List', pois_path %>

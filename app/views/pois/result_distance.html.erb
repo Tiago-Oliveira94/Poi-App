@@ -1,0 +1,10 @@
+<h1>Nearby Pois: </h1>
+<% if @result_pois %>
+  <% @result_pois.each do |poi| %>
+    <p>
+      Poi name: <%= poi %><br>
+    </p>
+  <% end %>
+<% end %>
+
+<%= link_to 'Back To List', pois_path %>

@@ -1499,3 +1499,177 @@ Processing by PoisController#index as HTML
 Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/pois" for 172.20.0.1 at 2019-07-11 00:42:23 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (34.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (46.3ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (70.1ms)
+Completed 200 OK in 1682ms (Views: 1620.5ms | ActiveRecord: 51.4ms)
+
+
+Started GET "/pois/new_distance" for 172.20.0.1 at 2019-07-11 00:42:39 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.20.0.1 at 2019-07-11 00:42:47 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k7T/ZAquWhjrNQZxa2s+wy7Kr1F4vGdz3fG4+m/UcZpjUVcPd78Ad8GX5QvnVk1IUYhY0mHW6/+VHbZF3RwtCA==", "radius"=>"10", "x"=>"20", "y"=>"10", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.6ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:43
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 57ms (Views: 54.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-07-11 00:42:50 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.6ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pois/new_distance" for 172.20.0.1 at 2019-07-11 00:42:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new_distance as HTML
+  Rendering pois/new_distance.html.erb within layouts/application
+  Rendered pois/new_distance.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois/new_distance" for 172.20.0.1 at 2019-07-11 00:42:59 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#calculate_distance as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8rYJbXoXcAq1XsQWWTtffx8vSJIItU1zXDGHRo4dHq0CU6EGBwYqZZ/8J2zVBiz0YG2/ERHfwf8U3Yn5PNVCPw==", "radius"=>"0", "x"=>"1", "y"=>"1", "commit"=>"Submit"}
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/controllers/pois_controller.rb:43
+  Rendering pois/result_distance.html.erb within layouts/application
+  Rendered pois/result_distance.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 22.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-07-11 00:43:00 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.4ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-07-11 00:53:41 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.8ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 66ms (Views: 50.1ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/pois/new" for 172.20.0.1 at 2019-07-11 00:53:44 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#new as HTML
+  Rendering pois/new.html.erb within layouts/application
+  Rendered pois/new.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 56ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pois" for 172.20.0.1 at 2019-07-11 00:53:58 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sbWEnAlr1WpsOSKzg+3fx45thRhOsi0591pxQiMDGu6g2H14Hoc7NcUxWYGDhVeRZN3azFW55/wqMDYlVcLQcA==", "poi"=>{"name"=>"teste", "x"=>"2", "y"=>"-1"}, "commit"=>"Save Poi"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/pois_controller.rb:18
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/pois_controller.rb:18
+  Rendering pois/new.html.erb within layouts/application
+  Rendered pois/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 33ms (Views: 27.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/pois" for 172.20.0.1 at 2019-07-11 00:54:51 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vIk8oAz3RNvIijyx8BwyLpXDBYy9ExNyTEhiG98D7IsXRuSDSHBalPJO7e1Ik19sMYtfiBS/R4ljgxVoghIrYQ==", "poi"=>{"name"=>"teste", "x"=>"2", "y"=>"4"}, "commit"=>"Save Poi"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/pois_controller.rb:18
+  [1m[36mPoi Create (62.1ms)[0m  [1m[32mINSERT INTO "pois" ("name", "x", "y", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "teste"], ["x", 2], ["y", 4], ["created_at", "2019-07-11 00:54:51.599037"], ["updated_at", "2019-07-11 00:54:51.599037"]]
+  ↳ app/controllers/pois_controller.rb:18
+  [1m[35m (15.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/pois_controller.rb:18
+Redirected to http://localhost:3000/pois/3
+Completed 302 Found in 87ms (ActiveRecord: 78.0ms)
+
+
+Started GET "/pois/3" for 172.20.0.1 at 2019-07-11 00:54:51 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPoi Load (0.4ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:9
+  Rendering pois/show.html.erb within layouts/application
+  Rendered pois/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 41ms (Views: 29.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-07-11 00:54:53 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.5ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/pois/3" for 172.20.0.1 at 2019-07-11 00:54:58 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bifhHgdGYh4wEhD5mNwzrvOLVIES5IZEZfQZDh8TFxbF6Dk9Q8F8UQrWwaUgU17sV8MOhbtI0r9KP259QgLQ/A==", "id"=>"3"}
+  [1m[36mPoi Load (0.6ms)[0m  [1m[34mSELECT  "pois".* FROM "pois" WHERE "pois"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/pois_controller.rb:26
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/pois_controller.rb:27
+  [1m[36mPoi Destroy (0.6ms)[0m  [1m[31mDELETE FROM "pois" WHERE "pois"."id" = $1[0m  [["id", 3]]
+  ↳ app/controllers/pois_controller.rb:27
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/pois_controller.rb:27
+Redirected to http://localhost:3000/pois
+Completed 302 Found in 14ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/pois" for 172.20.0.1 at 2019-07-11 00:54:58 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (0.6ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pois" for 172.18.0.1 at 2019-07-11 01:05:18 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PoisController#index as HTML
+  Rendering pois/index.html.erb within layouts/application
+  [1m[36mPoi Load (1.7ms)[0m  [1m[34mSELECT "pois".* FROM "pois"[0m
+  ↳ app/views/pois/index.html.erb:12
+  Rendered pois/index.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 195ms (Views: 176.6ms | ActiveRecord: 7.6ms)
+
+

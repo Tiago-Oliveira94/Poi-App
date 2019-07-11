@@ -1,0 +1,25 @@
+
+<h1>Listing POI's</h1>
+ 
+<table>
+  <tr>
+    <th>Name: </th>
+    <th>Coordinate X: </th>
+    <th>Coordinate Y: </th>
+    <th></th>
+  </tr>
+ 
+  <% @pois.each do |poi| %>
+    <tr>
+      <td><%= poi.name %></td>
+      <td><%= poi.x %></td>
+      <td><%= poi.y %></td>
+      <td><%= link_to 'Show', poi_path(poi) %></td>
+      <td><%= link_to 'Destroy', poi_path(poi), method: :delete, data: { confirm: 'Are you sure about this?'} %></td>
+    </tr>
+  <% end %>
+
+</table>
+
+<%= link_to 'New Poi', new_poi_path %>
+<%= link_to 'Calculate Distance', controller: "pois", action: "new_distance" %>
