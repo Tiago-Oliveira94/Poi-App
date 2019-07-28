@@ -19,6 +19,10 @@ gem 'pg', '~> 0.18.2'
 
 gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
 
+gem 'bcrypt'
+
+gem 'rubocop', '~> 0.64.0'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

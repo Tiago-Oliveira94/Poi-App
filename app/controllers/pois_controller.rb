@@ -48,8 +48,8 @@ class PoisController < ApplicationController
     render :result_distance
   end
 
-    def result_distance
-    end
+  def result_distance
+  end
 
 private
 
