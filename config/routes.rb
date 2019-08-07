@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root to: 'users#new'
+  root 'sessions#new'
 
   resources :users
   resources :pois
