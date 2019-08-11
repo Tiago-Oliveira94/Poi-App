@@ -1,4 +1,5 @@
 class PoisController < ApplicationController
+  before_action :authorize, except: [:new, :create]
 
 
   def index

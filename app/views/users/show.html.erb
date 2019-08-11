@@ -1,6 +1,7 @@
 <html>
     <body>
         <h3>Perfil de <%= @user.name %> </h3>
-        <%= @user.email %>
+        <li><%= @user.email %></li>
+        <%= link_to 'Pois List', pois_path %>
     </body>
 </html>
